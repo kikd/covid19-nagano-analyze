@@ -6,12 +6,12 @@ patients = getPatients;
 
 
 %% 公表日ベースの陽性者数取得
-start_date = min(test_count.InspectionDate);
-end_date = max(test_count.InspectionDate);
-confirmedNumberbyDate = [];
-for date_ = start_date:end_date
-confirmed_number = length(find(patients.ConfirmedDate==date_));
-confirmedNumberbyDate = [confirmedNumberbyDate, confirmed_number];
+% 0人だった日も知りたいので、日付は検査状況から引用する
+d = test_count.InspectionDate;
+confirmedNumberbyDate = zeros(numel(d),1);
+for index = 1:numel(d)
+confirmed_number = length(find(patients.ConfirmedDate==d(index)));
+confirmedNumberbyDate(index) = confirmed_number;
 end
 
 %% 各7日間移動平均を計算
