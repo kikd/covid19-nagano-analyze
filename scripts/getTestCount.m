@@ -23,7 +23,7 @@ function test_count = getTestCount()
 
     % データのインポート
     test_count = readtable("csv/200000_nagano_covid19_test_count.csv", opts);
-
+    save("data/test_count_org.mat", "test_count");
 
     %% 一時変数のクリア
     clear opts

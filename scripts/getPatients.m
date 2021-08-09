@@ -24,7 +24,7 @@ function patients = getPatients()
 
     % データのインポート
     patients = readtable("csv/200000_nagano_covid19_patients.csv", opts);
-
+    save("data/patients_org.mat", "patients");
     %% 一時変数のクリア
     clear opts
 end

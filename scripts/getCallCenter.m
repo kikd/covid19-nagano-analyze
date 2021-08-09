@@ -23,7 +23,7 @@ function call_center = getCallCenter()
 
     % データのインポート
     call_center = readtable("csv/200000_nagano_covid19_call_center.csv", opts);
-
+    save("data/call_center_org.mat", "call_center");
 
     %% 一時変数のクリア
     clear opts
