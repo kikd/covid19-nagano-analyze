@@ -37,7 +37,9 @@ for index = 1:numel(d)
     end
     rt0(index) = (confirmednumber_movave(index) / beforeval) ^ (5/7);
 end
-
+confirm_count=table(d, confirmedNumberbyDate, confirmednumber_movave, rt0);
+confirm_count.Properties.VariableNames = {'Date' 'ConfirmedNumber' 'MovingAverage' 'Rt'};
+save('data/confirm_count.mat', 'confirm_count');
 
 %% 検査数
 inspection_movave = movmean(test_count.InspectionNum, [6 0]);
