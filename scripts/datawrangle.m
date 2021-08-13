@@ -52,10 +52,13 @@ save('data/confirm_count.mat', 'confirm_count');
 confirm_json = struct();
 confirm_json.lastUpdated = updated;
 confirm_json.confirm = confirm_count;
-confirm_json_text = jsonencode(confirm_json);
+confirm_json_text = [jsonencode(confirm_json) newline];
 fid = fopen('json/confirm.json', 'w');
 fwrite(fid, confirm_json_text);
 fclose(fid);
+
+clear before_generation beforeval confirm_json confirm_json_text d start_date end_date fid index;
+clear confirmed_number confirmedNumberbyDate confirmednumber_movave rt0
 
 %% 検査数
 inspection_movave = movmean(test_count.InspectionNum, [6 0]);
