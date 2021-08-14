@@ -1,6 +1,12 @@
 %% Pathの設定
 addpath('scripts')
 
+%% 県の人口
+% 2021/4/1時点の人口を用いる。
+% NHKでは、2019/10/1時点の人口(2049653)を用いている
+population = 2024073;
+per100k = 1e5 / population;
+
 %% データ取得時間の設定
 updated = datetime();
 updated.Second = 0;
@@ -30,6 +36,9 @@ end
 % 7日間移動平均を作成
 confirmednumber_movave = movmean(confirmedNumberbyDate,[6 0]);
 
+% 10万人当たり陽性者数
+confirmed_per100k = confirmednumber_movave.*7.*per100k;
+
 % 簡易実効再生産数の計算
 % 7日間移動平均を用いて計算する
 % 東洋経済オンラインと同じ数式とする
@@ -44,8 +53,8 @@ for index = 1:numel(d)
     rt0(index) = (confirmednumber_movave(index) / beforeval) ^ (5/7);
 end
 % tableにまとめる
-confirm_count=table(d, confirmedNumberbyDate, confirmednumber_movave, rt0);
-confirm_count.Properties.VariableNames = {'Date' 'ConfirmedNumber' 'MovingAverage' 'Rt'};
+confirm_count=table(d, confirmedNumberbyDate, confirmednumber_movave, confirmed_per100k, rt0);
+confirm_count.Properties.VariableNames = {'Date' 'ConfirmedNumber' 'MovingAverage' 'ConfirmedPer100k' 'Rt'};
 save('data/confirm_count.mat', 'confirm_count');
 
 % jsonで吐き出す
@@ -58,7 +67,7 @@ fwrite(fid, confirm_json_text);
 fclose(fid);
 
 clear before_generation beforeval confirm_json confirm_json_text d start_date end_date fid index;
-clear confirmed_number confirmedNumberbyDate confirmednumber_movave rt0;
+clear confirmed_number confirmedNumberbyDate  rt0;
 
 %% 検査数
 test_count.Properties.VariableNames = {'YMD' 'regionCode'  'namePref' 'nameMunicipal' 'testedNum' 'misc' 'positiveNum' 'negativeNum'};
