@@ -58,14 +58,27 @@ fwrite(fid, confirm_json_text);
 fclose(fid);
 
 clear before_generation beforeval confirm_json confirm_json_text d start_date end_date fid index;
-clear confirmed_number confirmedNumberbyDate confirmednumber_movave rt0
+clear confirmed_number confirmedNumberbyDate confirmednumber_movave rt0;
 
 %% 検査数
-inspection_movave = movmean(test_count.InspectionNum, [6 0]);
+test_count.Properties.VariableNames = {'YMD' 'regionCode'  'namePref' 'nameMunicipal' 'testedNum' 'misc' 'positiveNum' 'negativeNum'};
+inspection_movave = movmean(test_count.testedNum, [6 0]);
+test_count.testedAve = inspection_movave;
 % 検査日ベースの陽性者数
-positive_movave = movmean(test_count.Positive, [6 0]);
+positive_movave = movmean(test_count.positiveNum, [6 0  ]);
+test_count.positiveAve = positive_movave;
 
-% 陽性率
-positive_rate = test_count.Positive ./ test_count.InspectionNum .* 100;
-posrate_movave = movmean(positive_rate, [6 0]);
-posrate_movave2 = positive_movave./inspection_movave.*100;
+% 陽性率計算
+% 計算方法
+% 検査陽性数の移動平均 / 検査実施件数の移動平均。
+% 移動平均はどちらも7日間の移動平均を用いる
+positive_rate = positive_movave./inspection_movave.*100;
+test_count.positiveRate = positive_rate;
+
+% jsonファイルを生成
+testcount_json = [jsonencode(test_count) newline];
+fid = fopen('json/test_count.json', 'w');
+fwrite(fid, testcount_json);
+fclose(fid);
+
+clear inspection_movave positive_movave positive_rate fid testcount_json;
