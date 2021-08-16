@@ -21,6 +21,9 @@ patients = rmmissing(patients);
 test_count = rmmissing(test_count);
 call_center = rmmissing(call_center);
 
+%% 年代情報の取得
+% 1例だけ含まれている乳児は、10歳未満として扱う。
+patients.Age(patients.Age == '乳児') = '10歳未満';
 
 %% 公表日ベースの陽性者に関するデータ作成
 % 公表日ベースの陽性者数取得
@@ -33,9 +36,15 @@ end_date = max(test_count.InspectionDate(end), patients.ConfirmedDate(end));
 d = [start_date:end_date]';
 confirmedNumberbyDate = zeros(numel(d),1);
 for index = 1:numel(d)
+    % 公表日ベースの陽性者数を抽出
     before_generation = max(1, index - 5);
-    confirmed_number = length(find(patients.ConfirmedDate==d(index)));
+    tmp_a = find(patients.ConfirmedDate == d(index));
+    confirmed_number = length(tmp_a);
     confirmedNumberbyDate(index) = confirmed_number;
+    % WIP:年代別で陽性者数を取得
+    % とりあえず30代の人数を計算してみる。
+    confirmed_by_date = patients(tmp_a,:);
+    display(length(find(confirmed_by_date.Age == '30代')));
 end
 
 % 7日間移動平均を作成
