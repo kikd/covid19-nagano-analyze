@@ -16,6 +16,11 @@ call_center = getCallCenter;
 test_count = getTestCount;
 patients = getPatients;
 
+%% 不正行の削除
+patients = rmmissing(patients);
+test_count = rmmissing(test_count);
+call_center = rmmissing(call_center);
+
 
 %% 公表日ベースの陽性者に関するデータ作成
 % 公表日ベースの陽性者数取得
