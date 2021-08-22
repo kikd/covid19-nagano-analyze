@@ -88,7 +88,7 @@ test_count.Properties.VariableNames = {'YMD' 'regionCode'  'namePref' 'nameMunic
 inspection_movave = movmean(test_count.testedNum, [6 0]);
 test_count.testedAve = inspection_movave;
 % 検査日ベースの陽性者数
-positive_movave = movmean(test_count.positiveNum, [6 0  ]);
+positive_movave = movmean(test_count.positiveNum, [6 0]);
 test_count.positiveAve = positive_movave;
 
 % 陽性率計算
