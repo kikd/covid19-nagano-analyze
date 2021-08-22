@@ -21,6 +21,12 @@ patients = rmmissing(patients);
 test_count = rmmissing(test_count);
 call_center = rmmissing(call_center);
 
+%% 年代情報の取得
+% 1例だけ含まれている乳児は、10歳未満として扱う。
+patients.Age(patients.Age == '乳児') = '10歳未満';
+age_list = unique(patients.Age);
+age_value = { 'age_10s'  'age_under10'  'age_20s'  'age_30s'  'age_40s'  'age_50s'   'age_60s'   'age_70s'   'age_80s'   'age_90s'   'age_over90'};
+map_age = containers.Map(age_list', age_value);
 
 %% 公表日ベースの陽性者に関するデータ作成
 % 公表日ベースの陽性者数取得
@@ -32,11 +38,36 @@ start_date = test_count.InspectionDate(1);
 end_date = max(test_count.InspectionDate(end), patients.ConfirmedDate(end));
 d = [start_date:end_date]';
 confirmedNumberbyDate = zeros(numel(d),1);
+tmp_confirmednumber_byage = zeros(numel(d), numel(age_list));
 for index = 1:numel(d)
+    % 公表日ベースの陽性者数を抽出
     before_generation = max(1, index - 5);
-    confirmed_number = length(find(patients.ConfirmedDate==d(index)));
+    tmp_a = find(patients.ConfirmedDate == d(index));
+    confirmed_number = length(tmp_a);
     confirmedNumberbyDate(index) = confirmed_number;
+    confirmed_by_date = patients(tmp_a,:);
+        
+    % WIP:年代別で陽性者数を取得
+    for age_index = 1:numel(age_list)
+        tmp_confirmednumber_byage(index, age_index) = ... 
+        length(find(confirmed_by_date.Age == age_list(age_index)));
+    end
 end
+
+% 年代別陽性者をJSONに吐き出す
+confirmednumber_byage = table();
+confirmednumber_byage.YMD = d;
+for age_index = 1:numel(age_list)
+    age_key = age_list(age_index);
+    confirmednumber_byage.(char(map_age(age_key))) = ...
+        tmp_confirmednumber_byage(:,age_index);
+end
+confirmed_byage_json = [jsonencode(confirmednumber_byage) newline];
+fid = fopen('json/confirm_byage.json', 'w');
+fwrite(fid, confirmed_byage_json);
+fclose(fid);
+clear fid tmp_confirmednumber_byage age_index date_index age_key
+
 
 % 7日間移動平均を作成
 confirmednumber_movave = movmean(confirmedNumberbyDate,[6 0]);
@@ -71,15 +102,18 @@ fid = fopen('json/confirm.json', 'w');
 fwrite(fid, confirm_json_text);
 fclose(fid);
 
-clear before_generation beforeval confirm_json confirm_json_text d start_date end_date fid index;
-clear confirmed_number confirmedNumberbyDate  rt0;
+clear before_generation beforeval confirm_json confirm_json_text d ...
+    start_date end_date fid index confirmed_number confirmedNumberbyDate ...
+    confirmed_by_date tmp_a map_age rt0 clear age_list age_value ...
+    confirmed_per100k per100k population confirmednumber_movave ...
+    confirmed_byage_json;
 
 %% 検査数
 test_count.Properties.VariableNames = {'YMD' 'regionCode'  'namePref' 'nameMunicipal' 'testedNum' 'misc' 'positiveNum' 'negativeNum'};
 inspection_movave = movmean(test_count.testedNum, [6 0]);
 test_count.testedAve = inspection_movave;
 % 検査日ベースの陽性者数
-positive_movave = movmean(test_count.positiveNum, [6 0  ]);
+positive_movave = movmean(test_count.positiveNum, [6 0]);
 test_count.positiveAve = positive_movave;
 
 % 陽性率計算
@@ -95,4 +129,5 @@ fid = fopen('json/test_count.json', 'w');
 fwrite(fid, testcount_json);
 fclose(fid);
 
-clear inspection_movave positive_movave positive_rate fid testcount_json;
+clear inspection_movave positive_movave positive_rate fid testcount_json...
+    updated ans;
