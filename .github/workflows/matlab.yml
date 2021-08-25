@@ -1,0 +1,30 @@
+name: Run MATLAB Script on GitHub-Hosted Runner
+on:
+  schedule:
+    - cron: '0 18-23 * * *'
+  push:
+    branches:
+      - master
+jobs:
+  my-job:
+    name: Run MATLAB Script
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+      - name: Set up MATLAB
+        uses: matlab-actions/setup-matlab@v1
+      - name: Run Script
+        uses: matlab-actions/run-command@v1
+        with:
+          command: addpath("scripts"), datawrangle;
+      - name: Commit files
+        run: |
+          git config --local user.email ${{ secrets.EMAIL }}
+          git config --local user.name "kikd.bot"
+          git status | grep modified && git commit -m "data update(`date +%Y/%m/%d`)" -a || true
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
