@@ -1,4 +1,4 @@
-function call_center = getCallCenter()
+function [call_center, updated] = getCallCenter()
     %% ホームページからCSVファイルを取得
     websave('csv/200000_nagano_covid19_call_center.csv','https://www.pref.nagano.lg.jp/hoken-shippei/kenko/kenko/kansensho/joho/documents/200000_nagano_covid19_call_center.csv');
 
@@ -22,9 +22,14 @@ function call_center = getCallCenter()
     opts = setvaropts(opts, "Date", "InputFormat", "yyyy/MM/dd");
 
     % データのインポート
-    call_center = readtable("csv/200000_nagano_covid19_call_center.csv", opts, "Encoding", "Shift_JIS");
-    save("data/call_center_org.mat", "call_center");
-
+    call_center_new = readtable("csv/200000_nagano_covid19_call_center.csv", opts, "Encoding", "Shift_JIS");
+    load('data/call_center_org.mat');
+    updated = ~isequal(call_center, call_center_new);
+    if updated
+        call_center = call_center_new;
+        save("data/call_center_org.mat", "call_center");
+    end
+    
     %% 一時変数のクリア
     clear opts
 end

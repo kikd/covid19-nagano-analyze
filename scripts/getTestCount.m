@@ -1,4 +1,4 @@
-function test_count = getTestCount()
+function [test_count,updated] = getTestCount()
     %% ホームページからCSVファイルを取得
     websave('csv/200000_nagano_covid19_test_count.csv','https://www.pref.nagano.lg.jp/hoken-shippei/kenko/kenko/kansensho/joho/documents/200000_nagano_covid19_test_count.csv');
     %% インポート オプションの設定およびデータのインポート
@@ -22,9 +22,14 @@ function test_count = getTestCount()
     opts = setvaropts(opts, "InspectionDate", "InputFormat", "yyyy/MM/dd");
 
     % データのインポート
-    test_count = readtable("csv/200000_nagano_covid19_test_count.csv", opts, "Encoding", "Shift_JIS");
-    save("data/test_count_org.mat", "test_count");
-
+    test_count_new = readtable("csv/200000_nagano_covid19_test_count.csv", opts, "Encoding", "Shift_JIS");
+    load('data/test_count_org.mat');
+    
+    updated = ~isequal(test_count, test_count_new);
+    if updated
+        test_count = test_count_new;
+        save("data/test_count_org.mat", "test_count");
+    end
     %% 一時変数のクリア
-    clear opts
+    clear opts test_count_new
 end

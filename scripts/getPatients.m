@@ -1,4 +1,4 @@
-function patients = getPatients()
+function [patients, updated] = getPatients()
     %% ホームページからCSVファイルを取得
     websave('csv/200000_nagano_covid19_patients.csv','https://www.pref.nagano.lg.jp/hoken-shippei/kenko/kenko/kansensho/joho/documents/200000_nagano_covid19_patients.csv');
 
@@ -23,8 +23,14 @@ function patients = getPatients()
     opts = setvaropts(opts, "ConfirmedDate", "InputFormat", "yyyy/MM/dd");
 
     % データのインポート
-    patients = readtable("csv/200000_nagano_covid19_patients.csv", opts, "Encoding", "Shift_JIS");
-    save("data/patients_org.mat", "patients");
+    patients_new = readtable("csv/200000_nagano_covid19_patients.csv", opts, "Encoding", "Shift_JIS");
+    load('data/patients_org.mat');
+    updated = ~isequal(patients, patients_new);
+    if updated
+        patients = patients_new;
+        save("data/patients_org.mat", "patients");
+    end
+    
     %% 一時変数のクリア
     clear opts
 end
