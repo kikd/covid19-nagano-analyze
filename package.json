@@ -1,0 +1,10 @@
+{
+  "name": "covid19_nagano_analyze",
+  "description": "Fetch COVID-19 Opendata from Nagano, and analysis.",
+  "repository": {
+    "type": "git"
+  },
+  "dependencies": {
+    "prettier": "^2.3.2"
+  }
+}

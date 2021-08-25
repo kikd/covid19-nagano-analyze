@@ -17,6 +17,12 @@ jobs:
         uses: matlab-actions/run-command@v1
         with:
           command: addpath("scripts"), datawrangle;
+      - name: Format JSON
+        uses: actions/setup-node@v2
+          with:
+            node-version: '16.x'
+          run: yarn install
+          run: yarn prettier --write json/*.json       
       - name: Commit files
         run: |
           git config --local user.email ${{ secrets.EMAIL }}
