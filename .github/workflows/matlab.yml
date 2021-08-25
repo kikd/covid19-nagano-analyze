@@ -1,13 +1,11 @@
 name: Run MATLAB Script on GitHub-Hosted Runner
 on:
   schedule:
-    - cron: '15 * * * *'
+    - cron: '30 * * * *'
 jobs:
   my-job:
     name: Run MATLAB Script
     runs-on: ubuntu-latest
-    env:
-      TZ: 'Asia/Tokyo'
     steps:
       - name: Check out repository
         uses: actions/checkout@v2
