@@ -12,9 +12,13 @@ updated = datetime();
 updated.Second = 0;
 
 %% オープンデータの取得
-call_center = getCallCenter;
-test_count = getTestCount;
-patients = getPatients;
+[call_center, call_center_updated] = getCallCenter;
+[test_count, test_count_updated] = getTestCount;
+[patients, patients_updated] = getPatients;
+
+if ~any([call_center_updated, test_count_updated, patients_updated])
+    return
+end
 
 %% 不正行の削除
 patients = rmmissing(patients);
