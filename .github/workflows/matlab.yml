@@ -22,8 +22,8 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '16.x'
-      - run: yarn install
-      - run: yarn prettier --write json/*.json       
+      - run: yarn install prettier
+      - run: yarn prettier --write ./json/       
       - name: Commit files
         run: |
           git config --local user.email ${{ secrets.EMAIL }}
