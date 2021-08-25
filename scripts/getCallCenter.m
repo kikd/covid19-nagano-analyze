@@ -22,7 +22,7 @@ function call_center = getCallCenter()
     opts = setvaropts(opts, "Date", "InputFormat", "yyyy/MM/dd");
 
     % データのインポート
-    call_center = readtable("csv/200000_nagano_covid19_call_center.csv", opts);
+    call_center = readtable("csv/200000_nagano_covid19_call_center.csv", opts, "Encoding", "Shift_JIS");
     save("data/call_center_org.mat", "call_center");
 
     %% 一時変数のクリア

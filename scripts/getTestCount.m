@@ -22,7 +22,7 @@ function test_count = getTestCount()
     opts = setvaropts(opts, "InspectionDate", "InputFormat", "yyyy/MM/dd");
 
     % データのインポート
-    test_count = readtable("csv/200000_nagano_covid19_test_count.csv", opts);
+    test_count = readtable("csv/200000_nagano_covid19_test_count.csv", opts, "Encoding", "Shift_JIS");
     save("data/test_count_org.mat", "test_count");
 
     %% 一時変数のクリア
