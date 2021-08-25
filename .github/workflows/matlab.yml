@@ -23,7 +23,7 @@ jobs:
         with:
           node-version: '16.x'
       - run: yarn install
-      - run: yarn list       
+      - run: yarn run prettier --write ./json/       
       - name: Commit files
         run: |
           git config --local user.email ${{ secrets.EMAIL }}
