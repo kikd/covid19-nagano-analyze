@@ -1,3 +1,6 @@
 # List of untracked files to ignore
 *.asv
 *.slxc
+
+# Node.js Dependency directories
+node_modules/ 
