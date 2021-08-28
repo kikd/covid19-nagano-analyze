@@ -1,13 +1,11 @@
 %% オープンデータ取得URLの設定
-base_url = 'https://www.pref.nagano.lg.jp';
+base_url = 'https://www.pref.nagano.lg.jp/hoken-shippei/kenko/kenko/kansensho/joho/';
 
 webopt = weboptions('CharacterEncoding', 'UTF-8');
-site_data = webread(strcat(base_url,"/hoken-shippei/kenko/kenko/kansensho/joho/corona-doko.html"), webopt);
-expression = '<a href="([\w\d\/-]*\.csv';
-display(site_data);
-display(expression);
-display(htmlTree);
-[token,match] = regexp(site_data,expression,'tokens', 'match')
+site_data = webread(strcat(base_url,"corona-doko.html"), webopt);
+expression = 'documents/[\w\d\/-]*\.csv';
+
+[token,match] = regexp(site_data,expression,'tokens', 'match');
 
 patients_url = strcat(base_url, match{1});
 testcount_url = strcat(base_url, match{2});
