@@ -3,6 +3,7 @@ base_url = 'https://www.pref.nagano.lg.jp';
 
 webopt = weboptions('CharacterEncoding', 'UTF-8');
 site_data = webread(strcat(base_url,"/hoken-shippei/kenko/kenko/kansensho/joho/corona-doko.html"), webopt);
+expression = '<a href="([\w\d\/]*\.csv';
 [token,match] = regexp(site_data,expression,'tokens', 'match')
 
 patients_url = strcat(base_url, match{1});
