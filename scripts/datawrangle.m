@@ -1,5 +1,14 @@
-%% Pathの設定
-addpath('scripts')
+%% オープンデータ取得URLの設定
+base_url = 'https://www.pref.nagano.lg.jp';
+
+webopt = weboptions('CharacterEncoding', 'UTF-8');
+site_data = webread(strcat(base_url,"/hoken-shippei/kenko/kenko/kansensho/joho/corona-doko.html"), webopt);
+[token,match] = regexp(site_data,expression,'tokens', 'match')
+
+patients_url = strcat(base_url, match{1});
+testcount_url = strcat(base_url, match{2});
+callcenter_url = strcat(base_url, match{3});
+
 
 %% 県の人口
 % 2021/4/1時点の人口を用いる。
@@ -12,9 +21,9 @@ updated = datetime();
 updated.Second = 0;
 
 %% オープンデータの取得
-[call_center, call_center_updated] = getCallCenter;
-[test_count, test_count_updated] = getTestCount;
-[patients, patients_updated] = getPatients;
+[call_center, call_center_updated] = getCallCenter(callcenter_url);
+[test_count, test_count_updated] = getTestCount(testcount_url);
+[patients, patients_updated] = getPatients(patients_url);
 
 if ~any([call_center_updated, test_count_updated, patients_updated])
     return

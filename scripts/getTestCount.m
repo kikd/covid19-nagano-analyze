@@ -1,6 +1,6 @@
-function [test_count,updated] = getTestCount()
+function [test_count,updated] = getTestCount(url)
     %% ホームページからCSVファイルを取得
-    websave('csv/200000_nagano_covid19_test_count.csv','https://www.pref.nagano.lg.jp/hoken-shippei/kenko/kenko/kansensho/joho/documents/200000_nagano_covid19_test_count.csv');
+    websave('csv/200000_nagano_covid19_test_count.csv', url);
     %% インポート オプションの設定およびデータのインポート
     opts = delimitedTextImportOptions("NumVariables", 8);
 

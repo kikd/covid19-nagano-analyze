@@ -1,6 +1,6 @@
-function [call_center, updated] = getCallCenter()
+function [call_center, updated] = getCallCenter(url)
     %% ホームページからCSVファイルを取得
-    websave('csv/200000_nagano_covid19_call_center.csv','https://www.pref.nagano.lg.jp/hoken-shippei/kenko/kenko/kansensho/joho/documents/200000_nagano_covid19_call_center.csv');
+    websave('csv/200000_nagano_covid19_call_center.csv', url);
 
     %% インポート オプションの設定およびデータのインポート
     opts = delimitedTextImportOptions("NumVariables", 7);
