@@ -1,6 +1,6 @@
-function [patients, updated] = getPatients()
+function [patients, updated] = getPatients(url)
     %% ホームページからCSVファイルを取得
-    websave('csv/200000_nagano_covid19_patients.csv','https://www.pref.nagano.lg.jp/hoken-shippei/kenko/kenko/kansensho/joho/documents/200000_nagano_covid19_patients.csv');
+    websave('csv/200000_nagano_covid19_patients.csv', url);
 
     %% インポート オプションの設定およびデータのインポート
     opts = delimitedTextImportOptions("NumVariables", 15);
