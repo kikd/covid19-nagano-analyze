@@ -6,6 +6,7 @@ site_data = webread(strcat(base_url,"/hoken-shippei/kenko/kenko/kansensho/joho/c
 expression = '<a href="([\w\d\/-]*\.csv';
 display(site_data);
 display(expression);
+display(htmlTree);
 [token,match] = regexp(site_data,expression,'tokens', 'match')
 
 patients_url = strcat(base_url, match{1});
