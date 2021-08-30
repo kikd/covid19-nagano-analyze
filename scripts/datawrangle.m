@@ -21,6 +21,7 @@ per100k = 1e5 / population;
 %% データ取得時間の設定
 updated = datetime();
 updated.Second = 0;
+updated.Format = "yyyy/MM/dd HH:mm";
 
 %% オープンデータの取得
 [call_center, call_center_updated] = getCallCenter(callcenter_url);
