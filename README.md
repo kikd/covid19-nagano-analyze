@@ -1,5 +1,5 @@
 # COVID-19 Nagano Analysis
-
+[![Run MATLAB Script on GitHub-Hosted Runner](https://github.com/kikd/covid19-nagano-analyze/actions/workflows/matlab.yml/badge.svg)](https://github.com/kikd/covid19-nagano-analyze/actions/workflows/matlab.yml)
 ## About
 長野県が公開している新型コロナウイルスのオープンデータを取得、分析を行い、 JSON ファイル、 MAT ファイルを出力する MATLAB スクリプトです。
 オープンデータをもとに次のデータを計算します。
