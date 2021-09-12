@@ -44,6 +44,9 @@ age_list = unique(patients.Age);
 age_value = { 'age_10s'  'age_under10'  'age_20s'  'age_30s'  'age_40s'  'age_50s'   'age_60s'   'age_70s'   'age_80s'   'age_90s'   'age_over90'};
 map_age = containers.Map(age_list', age_value);
 
+%% 市町村名の取得
+municipal_list = getMunicipalities;
+
 %% 公表日ベースの陽性者に関するデータ作成
 % 公表日ベースの陽性者数取得
 % 0人だった日も知りたいので、日付は検査状況から引用する
@@ -55,6 +58,7 @@ end_date = max(test_count.InspectionDate(end), patients.ConfirmedDate(end));
 d = [start_date:end_date]';
 confirmedNumberbyDate = zeros(numel(d),1);
 tmp_confirmednumber_byage = zeros(numel(d), numel(age_list));
+tmp_municipalities = zeros(numel(d), numel(municipal_list));
 for index = 1:numel(d)
     % 公表日ベースの陽性者数を抽出
     before_generation = max(1, index - 5);
@@ -68,7 +72,25 @@ for index = 1:numel(d)
         tmp_confirmednumber_byage(index, age_index) = ... 
         length(find(confirmed_by_date.Age == age_list(age_index)));
     end
+    % 市町村別の陽性者数
+    tmp_b = patients(patients.ConfirmedDate == d(index),:);
+    for municipal_index = 1:numel(municipal_list)
+        tmp_municipalities(index,municipal_index) =  ...
+            length(find(tmp_b.Residence == municipal_list(municipal_index)));
+    end
+    tmp_municipalities(index, end) = ...
+        confirmed_number - sum(tmp_municipalities(index,1:end-1));
 end
+% 市町村別の陽性者数をtableに
+confirmed_by_municipalities = table();
+confirmed_by_municipalities.YMD = d;
+for municipal_index = 1:numel(municipal_list)
+    confirmed_by_municipalities.(char(municipal_list(municipal_index))) = ...
+        tmp_municipalities(:,municipal_index);
+end
+confirmed_by_municipalities.(char('県外等')) = tmp_municipalities(:,end);
+save('data/confirm_municipalities.mat', 'confirmed_by_municipalities');
+
 
 % 年代別陽性者をJSONに吐き出す
 confirmednumber_byage = table();
@@ -82,7 +104,7 @@ confirmed_byage_json = [jsonencode(confirmednumber_byage) newline];
 fid = fopen('json/confirm_byage.json', 'w');
 fwrite(fid, confirmed_byage_json);
 fclose(fid);
-clear fid tmp_confirmednumber_byage age_index date_index age_key
+clear fid tmp_* *index age_key
 
 
 % 7日間移動平均を作成
