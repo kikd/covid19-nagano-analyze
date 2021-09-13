@@ -29,7 +29,7 @@ updated.Format = "yyyy/MM/dd HH:mm";
 [patients, patients_updated] = getPatients(patients_url);
 
 if ~any([call_center_updated, test_count_updated, patients_updated])
-    return
+    %return
 end
 
 %% 不正行の削除
@@ -45,7 +45,7 @@ age_value = { 'age_10s'  'age_under10'  'age_20s'  'age_30s'  'age_40s'  'age_50
 map_age = containers.Map(age_list', age_value);
 
 %% 市町村名の取得
-municipal_list = getMunicipalities;
+[municipal_list,municipal_key] = getMunicipalities;
 
 %% 公表日ベースの陽性者に関するデータ作成
 % 公表日ベースの陽性者数取得
@@ -88,9 +88,14 @@ for municipal_index = 1:numel(municipal_list)
     confirmed_by_municipalities.(char(municipal_list(municipal_index))) = ...
         tmp_municipalities(:,municipal_index);
 end
-confirmed_by_municipalities.(char('県外等')) = tmp_municipalities(:,end);
 save('data/confirm_municipalities.mat', 'confirmed_by_municipalities');
-
+confirmed_by_municipalities.(char('県外等')) = tmp_municipalities(:,end);
+confirmed_by_municipalities.Properties.VariableNames = municipal_key;
+municipalities_json = [jsonencode(confirmed_by_municipalities) newline];
+fid = fopen('json/confirm_municipalities.json', 'w');
+fwrite(fid, municipalities_json);
+fclose(fid);
+clear fid *_json;
 
 % 年代別陽性者をJSONに吐き出す
 confirmednumber_byage = table();
