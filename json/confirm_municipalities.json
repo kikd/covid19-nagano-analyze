@@ -3866,7 +3866,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -5396,7 +5396,7 @@
     "InaArea": 3,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -5666,7 +5666,7 @@
     "InaArea": 1,
     "UedaArea": 0,
     "KisoArea": 1,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -5757,7 +5757,7 @@
     "UedaArea": 0,
     "KisoArea": 1,
     "HokushinArea": 1,
-    "Other": 1
+    "Other": 0
   },
   {
     "YMD": "2020/04/18",
@@ -5937,7 +5937,7 @@
     "UedaArea": 0,
     "KisoArea": 0,
     "HokushinArea": 4,
-    "Other": 4
+    "Other": 0
   },
   {
     "YMD": "2020/04/20",
@@ -6026,7 +6026,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -6207,7 +6207,7 @@
     "UedaArea": 0,
     "KisoArea": 0,
     "HokushinArea": 2,
-    "Other": 2
+    "Other": 0
   },
   {
     "YMD": "2020/04/23",
@@ -13406,7 +13406,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -13856,7 +13856,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -14216,7 +14216,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -14576,7 +14576,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -15296,7 +15296,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -16286,7 +16286,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -16466,7 +16466,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -17006,7 +17006,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 3,
+    "HokushinArea": 0,
     "Other": 3
   },
   {
@@ -17096,7 +17096,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -21416,7 +21416,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -21506,7 +21506,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -22136,7 +22136,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 2,
+    "HokushinArea": 0,
     "Other": 2
   },
   {
@@ -23216,7 +23216,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -23486,7 +23486,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -23576,7 +23576,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -23666,7 +23666,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -24206,7 +24206,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -24476,7 +24476,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -25466,7 +25466,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -25826,7 +25826,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 3,
+    "HokushinArea": 0,
     "Other": 3
   },
   {
@@ -25916,7 +25916,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 2,
+    "HokushinArea": 0,
     "Other": 2
   },
   {
@@ -26006,7 +26006,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -26096,7 +26096,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 3,
+    "HokushinArea": 0,
     "Other": 3
   },
   {
@@ -27176,7 +27176,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -27536,7 +27536,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -28166,7 +28166,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -28526,7 +28526,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -28706,7 +28706,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -28886,7 +28886,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 3,
+    "HokushinArea": 0,
     "Other": 3
   },
   {
@@ -28976,7 +28976,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 2,
+    "HokushinArea": 0,
     "Other": 2
   },
   {
@@ -29156,7 +29156,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 2,
+    "HokushinArea": 0,
     "Other": 2
   },
   {
@@ -29336,7 +29336,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 4,
+    "HokushinArea": 0,
     "Other": 4
   },
   {
@@ -29516,7 +29516,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 2,
+    "HokushinArea": 0,
     "Other": 2
   },
   {
@@ -29696,7 +29696,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -29876,7 +29876,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 2,
+    "HokushinArea": 0,
     "Other": 2
   },
   {
@@ -30056,7 +30056,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 2,
+    "HokushinArea": 0,
     "Other": 2
   },
   {
@@ -30146,7 +30146,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 3,
+    "HokushinArea": 0,
     "Other": 3
   },
   {
@@ -30236,7 +30236,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 2,
+    "HokushinArea": 0,
     "Other": 2
   },
   {
@@ -30326,7 +30326,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -30686,7 +30686,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -30776,7 +30776,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -30956,7 +30956,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -33836,7 +33836,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -34016,7 +34016,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -34826,7 +34826,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -35276,7 +35276,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -36266,7 +36266,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -36446,7 +36446,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 2,
+    "HokushinArea": 0,
     "Other": 2
   },
   {
@@ -36536,7 +36536,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 2,
+    "HokushinArea": 0,
     "Other": 2
   },
   {
@@ -36896,7 +36896,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -37706,7 +37706,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -37976,7 +37976,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -38426,7 +38426,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -38516,7 +38516,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -39506,7 +39506,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -39776,7 +39776,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -39956,7 +39956,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -40136,7 +40136,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 2,
+    "HokushinArea": 0,
     "Other": 2
   },
   {
@@ -40316,7 +40316,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 2,
+    "HokushinArea": 0,
     "Other": 2
   },
   {
@@ -40406,7 +40406,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 2,
+    "HokushinArea": 0,
     "Other": 2
   },
   {
@@ -40496,7 +40496,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 2,
+    "HokushinArea": 0,
     "Other": 2
   },
   {
@@ -40586,7 +40586,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -40766,7 +40766,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 3,
+    "HokushinArea": 0,
     "Other": 3
   },
   {
@@ -40856,7 +40856,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 3,
+    "HokushinArea": 0,
     "Other": 3
   },
   {
@@ -40946,7 +40946,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 2,
+    "HokushinArea": 0,
     "Other": 2
   },
   {
@@ -41306,7 +41306,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -41396,7 +41396,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 3,
+    "HokushinArea": 0,
     "Other": 3
   },
   {
@@ -41486,7 +41486,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 2,
+    "HokushinArea": 0,
     "Other": 2
   },
   {
@@ -41576,7 +41576,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 2,
+    "HokushinArea": 0,
     "Other": 2
   },
   {
@@ -41666,7 +41666,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 6,
+    "HokushinArea": 0,
     "Other": 6
   },
   {
@@ -41756,7 +41756,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 2,
+    "HokushinArea": 0,
     "Other": 2
   },
   {
@@ -41846,7 +41846,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -41936,7 +41936,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -42026,7 +42026,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 2,
+    "HokushinArea": 0,
     "Other": 2
   },
   {
@@ -42116,7 +42116,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 4,
+    "HokushinArea": 0,
     "Other": 4
   },
   {
@@ -42746,7 +42746,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -43916,7 +43916,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -44276,7 +44276,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -44546,7 +44546,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -44816,7 +44816,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -45176,7 +45176,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -45986,7 +45986,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -46166,7 +46166,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -46346,7 +46346,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -46436,7 +46436,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 2,
+    "HokushinArea": 0,
     "Other": 2
   },
   {
@@ -46706,7 +46706,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 2,
+    "HokushinArea": 0,
     "Other": 2
   },
   {
@@ -46976,7 +46976,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -47246,7 +47246,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -47336,7 +47336,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -47426,7 +47426,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 2,
+    "HokushinArea": 0,
     "Other": 2
   },
   {
@@ -47606,7 +47606,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 5,
+    "HokushinArea": 0,
     "Other": 5
   },
   {
@@ -47696,7 +47696,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -47786,7 +47786,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -47966,7 +47966,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 4,
+    "HokushinArea": 0,
     "Other": 4
   },
   {
@@ -48056,7 +48056,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 3,
+    "HokushinArea": 0,
     "Other": 3
   },
   {
@@ -48146,7 +48146,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 4,
+    "HokushinArea": 0,
     "Other": 4
   },
   {
@@ -48236,7 +48236,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 2,
+    "HokushinArea": 0,
     "Other": 2
   },
   {
@@ -48326,7 +48326,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 6,
+    "HokushinArea": 0,
     "Other": 6
   },
   {
@@ -48416,7 +48416,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 4,
+    "HokushinArea": 0,
     "Other": 4
   },
   {
@@ -48596,7 +48596,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 3,
+    "HokushinArea": 0,
     "Other": 3
   },
   {
@@ -48686,7 +48686,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 4,
+    "HokushinArea": 0,
     "Other": 4
   },
   {
@@ -48776,7 +48776,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 2,
+    "HokushinArea": 0,
     "Other": 2
   },
   {
@@ -48866,7 +48866,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 4,
+    "HokushinArea": 0,
     "Other": 4
   },
   {
@@ -48956,7 +48956,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 7,
+    "HokushinArea": 0,
     "Other": 7
   },
   {
@@ -49046,7 +49046,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 9,
+    "HokushinArea": 0,
     "Other": 9
   },
   {
@@ -49136,7 +49136,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 20,
+    "HokushinArea": 0,
     "Other": 20
   },
   {
@@ -49226,7 +49226,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 13,
+    "HokushinArea": 0,
     "Other": 13
   },
   {
@@ -49316,7 +49316,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 12,
+    "HokushinArea": 0,
     "Other": 12
   },
   {
@@ -49406,7 +49406,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 6,
+    "HokushinArea": 0,
     "Other": 6
   },
   {
@@ -49496,7 +49496,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 6,
+    "HokushinArea": 0,
     "Other": 6
   },
   {
@@ -49586,7 +49586,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 20,
+    "HokushinArea": 0,
     "Other": 20
   },
   {
@@ -49676,7 +49676,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 22,
+    "HokushinArea": 0,
     "Other": 22
   },
   {
@@ -49766,7 +49766,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 8,
+    "HokushinArea": 0,
     "Other": 8
   },
   {
@@ -49856,7 +49856,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 11,
+    "HokushinArea": 0,
     "Other": 11
   },
   {
@@ -49946,7 +49946,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 12,
+    "HokushinArea": 0,
     "Other": 12
   },
   {
@@ -50036,7 +50036,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 3,
+    "HokushinArea": 0,
     "Other": 3
   },
   {
@@ -50126,7 +50126,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 5,
+    "HokushinArea": 0,
     "Other": 5
   },
   {
@@ -50216,7 +50216,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 7,
+    "HokushinArea": 0,
     "Other": 7
   },
   {
@@ -50306,7 +50306,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 9,
+    "HokushinArea": 0,
     "Other": 9
   },
   {
@@ -50396,7 +50396,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 7,
+    "HokushinArea": 0,
     "Other": 7
   },
   {
@@ -50486,7 +50486,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 4,
+    "HokushinArea": 0,
     "Other": 4
   },
   {
@@ -50576,7 +50576,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 2,
+    "HokushinArea": 0,
     "Other": 2
   },
   {
@@ -50666,7 +50666,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 2,
+    "HokushinArea": 0,
     "Other": 2
   },
   {
@@ -50846,7 +50846,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 5,
+    "HokushinArea": 0,
     "Other": 5
   },
   {
@@ -50936,7 +50936,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -51026,7 +51026,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 3,
+    "HokushinArea": 0,
     "Other": 3
   },
   {
@@ -51206,7 +51206,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 5,
+    "HokushinArea": 0,
     "Other": 5
   },
   {
@@ -51296,7 +51296,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -51386,7 +51386,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -51476,7 +51476,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 3,
+    "HokushinArea": 0,
     "Other": 3
   },
   {
@@ -51566,7 +51566,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   },
   {
@@ -51656,7 +51656,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 2,
+    "HokushinArea": 0,
     "Other": 2
   },
   {
@@ -51926,7 +51926,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 2,
+    "HokushinArea": 0,
     "Other": 2
   },
   {
@@ -52106,7 +52106,7 @@
     "InaArea": 0,
     "UedaArea": 0,
     "KisoArea": 0,
-    "HokushinArea": 1,
+    "HokushinArea": 0,
     "Other": 1
   }
 ]
