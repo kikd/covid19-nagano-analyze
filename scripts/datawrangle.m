@@ -29,7 +29,7 @@ updated.Format = "yyyy/MM/dd HH:mm";
 [patients, patients_updated] = getPatients(patients_url);
 
 if ~any([call_center_updated, test_count_updated, patients_updated])
-    %return
+    return
 end
 
 %% 不正行の削除
