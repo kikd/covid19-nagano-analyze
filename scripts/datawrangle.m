@@ -58,7 +58,7 @@ end_date = max(test_count.InspectionDate(end), patients.ConfirmedDate(end));
 d = [start_date:end_date]';
 confirmedNumberbyDate = zeros(numel(d),1);
 tmp_confirmednumber_byage = zeros(numel(d), numel(age_list));
-tmp_municipalities = zeros(numel(d), numel(municipal_list));
+tmp_municipalities = zeros(numel(d), numel(municipal_list) + 1);
 for index = 1:numel(d)
     % 公表日ベースの陽性者数を抽出
     before_generation = max(1, index - 5);
