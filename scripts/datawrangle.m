@@ -50,9 +50,6 @@ map_age = containers.Map(age_list', age_value);
 %% 公表日ベースの陽性者に関するデータ作成
 % 公表日ベースの陽性者数取得
 % 0人だった日も知りたいので、日付は検査状況から引用する
-% -> 休日は検査状況が更新されていないことを考えていなかった。。。
-% -> 発生状況の日付も見たほうがよい。
-% -> 自動更新ができるようになったらyesterdayを最後の日付にしてもいいかも。
 start_date = test_count.InspectionDate(1);
 end_date = max(test_count.InspectionDate(end), patients.ConfirmedDate(end));
 d = [start_date:end_date]';
@@ -66,7 +63,7 @@ for index = 1:numel(d)
     confirmedNumberbyDate(index) = confirmed_number;
     confirmed_by_date = patients(tmp_a,:);
         
-    % WIP:年代別で陽性者数を取得
+    % 年代別で陽性者数を取得
     for age_index = 1:numel(age_list)
         tmp_confirmednumber_byage(index, age_index) = ... 
         length(find(confirmed_by_date.Age == age_list(age_index)));
