@@ -171,4 +171,5 @@ fwrite(fid, testcount_json);
 fclose(fid);
 
 clear inspection_movave positive_movave positive_rate fid testcount_json...
-    updated ans;
+    updated ans *_url municipal_* webopt *updated token site_data match ...
+    expression;
