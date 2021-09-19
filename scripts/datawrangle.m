@@ -50,9 +50,6 @@ map_age = containers.Map(age_list', age_value);
 %% 公表日ベースの陽性者に関するデータ作成
 % 公表日ベースの陽性者数取得
 % 0人だった日も知りたいので、日付は検査状況から引用する
-% -> 休日は検査状況が更新されていないことを考えていなかった。。。
-% -> 発生状況の日付も見たほうがよい。
-% -> 自動更新ができるようになったらyesterdayを最後の日付にしてもいいかも。
 start_date = test_count.InspectionDate(1);
 end_date = max(test_count.InspectionDate(end), patients.ConfirmedDate(end));
 d = [start_date:end_date]';
@@ -61,13 +58,12 @@ tmp_confirmednumber_byage = zeros(numel(d), numel(age_list));
 tmp_municipalities = zeros(numel(d), numel(municipal_list) + 1);
 for index = 1:numel(d)
     % 公表日ベースの陽性者数を抽出
-    before_generation = max(1, index - 5);
     tmp_a = find(patients.ConfirmedDate == d(index));
     confirmed_number = length(tmp_a);
     confirmedNumberbyDate(index) = confirmed_number;
     confirmed_by_date = patients(tmp_a,:);
         
-    % WIP:年代別で陽性者数を取得
+    % 年代別で陽性者数を取得
     for age_index = 1:numel(age_list)
         tmp_confirmednumber_byage(index, age_index) = ... 
         length(find(confirmed_by_date.Age == age_list(age_index)));
@@ -81,6 +77,7 @@ for index = 1:numel(d)
     tmp_municipalities(index, end) = ...
         confirmed_number - sum(tmp_municipalities(index,1:end-1));
 end
+
 % 市町村別の陽性者数をtableに
 confirmed_by_municipalities = table();
 confirmed_by_municipalities.YMD = d;
@@ -131,6 +128,7 @@ for index = 1:numel(d)
     end
     rt0(index) = (confirmednumber_movave(index) / beforeval) ^ (5/7);
 end
+
 % tableにまとめる
 confirm_count=table(d, confirmedNumberbyDate, confirmednumber_movave, confirmed_per100k, rt0);
 confirm_count.Properties.VariableNames = {'Date' 'ConfirmedNumber' 'MovingAverage' 'ConfirmedPer100k' 'Rt'};
@@ -173,4 +171,5 @@ fwrite(fid, testcount_json);
 fclose(fid);
 
 clear inspection_movave positive_movave positive_rate fid testcount_json...
-    updated ans;
+    updated ans *_url municipal_* webopt *updated token site_data match ...
+    expression;
