@@ -77,6 +77,7 @@ for index = 1:numel(d)
     tmp_municipalities(index, end) = ...
         confirmed_number - sum(tmp_municipalities(index,1:end-1));
 end
+
 % 市町村別の陽性者数をtableに
 confirmed_by_municipalities = table();
 confirmed_by_municipalities.YMD = d;
@@ -127,6 +128,7 @@ for index = 1:numel(d)
     end
     rt0(index) = (confirmednumber_movave(index) / beforeval) ^ (5/7);
 end
+
 % tableにまとめる
 confirm_count=table(d, confirmedNumberbyDate, confirmednumber_movave, confirmed_per100k, rt0);
 confirm_count.Properties.VariableNames = {'Date' 'ConfirmedNumber' 'MovingAverage' 'ConfirmedPer100k' 'Rt'};
