@@ -61,7 +61,6 @@ tmp_confirmednumber_byage = zeros(numel(d), numel(age_list));
 tmp_municipalities = zeros(numel(d), numel(municipal_list) + 1);
 for index = 1:numel(d)
     % 公表日ベースの陽性者数を抽出
-    before_generation = max(1, index - 5);
     tmp_a = find(patients.ConfirmedDate == d(index));
     confirmed_number = length(tmp_a);
     confirmedNumberbyDate(index) = confirmed_number;
