@@ -2,6 +2,7 @@
 base_url = 'https://www.pref.nagano.lg.jp/hoken-shippei/kenko/kenko/kansensho/joho/';
 
 webopt = weboptions('CharacterEncoding', 'UTF-8');
+webopt.CertificateFilename=('');
 site_data = webread(strcat(base_url,"corona-doko.html"), webopt);
 expression = 'documents/[\w\d\/-]*\.csv';
 
