@@ -1,6 +1,7 @@
 function [patients, updated] = getPatients(url)
     %% ホームページからCSVファイルを取得
-    websave('csv/200000_nagano_covid19_patients.csv', url);
+    webopt = weboptions('CertificateFilename', '');
+    websave('csv/200000_nagano_covid19_patients.csv', url, webopt);
 
     %% インポート オプションの設定およびデータのインポート
     opts = delimitedTextImportOptions("NumVariables", 15);
