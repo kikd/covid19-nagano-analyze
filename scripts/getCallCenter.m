@@ -1,6 +1,7 @@
 function [call_center, updated] = getCallCenter(url)
     %% ホームページからCSVファイルを取得
-    websave('csv/200000_nagano_covid19_call_center.csv', url);
+    webopt = weboptions('CertificateFilename', '');
+    websave('csv/200000_nagano_covid19_call_center.csv', url, webopt);
 
     %% インポート オプションの設定およびデータのインポート
     opts = delimitedTextImportOptions("NumVariables", 7);
