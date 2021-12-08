@@ -2,7 +2,7 @@ name: Opendata Update
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 * * * *'
+    - cron: '0 * * * *'
 jobs:
   fetch-and-analyze:
     name: Run MATLAB Script
