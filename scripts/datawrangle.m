@@ -41,6 +41,9 @@ call_center = rmmissing(call_center);
 %% 年代情報の取得
 % 1例だけ含まれている乳児は、10歳未満として扱う。
 patients.Age(patients.Age == '乳児') = '10歳未満';
+% 誤字のケア
+patients.Age(patients.Age == '10際未満') = '10歳未満';
+
 age_list = unique(patients.Age);
 age_value = { 'age_10s'  'age_under10'  'age_20s'  'age_30s'  'age_40s'  'age_50s'   'age_60s'   'age_70s'   'age_80s'   'age_90s'   'age_over90'};
 map_age = containers.Map(age_list', age_value);
