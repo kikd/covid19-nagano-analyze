@@ -63397,7 +63397,7 @@
     "AchiMura": 0,
     "HirayaMura": 0,
     "NebaMura": 0,
-    "ShimojoMura": 0,
+    "ShimojoMura": 1,
     "UrukiMura": 0,
     "TenryuMura": 0,
     "YasuokaMura": 0,
@@ -63447,7 +63447,7 @@
     "UedaArea": 0,
     "KisoArea": 0,
     "HokushinArea": 0,
-    "Other": 10
+    "Other": 9
   },
   {
     "YMD": "2022/01/19",
