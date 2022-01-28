@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2022/01/27 23:11",
+  "lastUpdated": "2022/01/29 00:11",
   "confirm": [
     {
       "Date": "2020/02/14",
@@ -4991,6 +4991,13 @@
       "MovingAverage": 329.14285714285717,
       "ConfirmedPer100k": 113.82988657029662,
       "Rt": 1.100856523648104
+    },
+    {
+      "Date": "2022/01/27",
+      "ConfirmedNumber": 0,
+      "MovingAverage": 267,
+      "ConfirmedPer100k": 92.3385668402276,
+      "Rt": 0.886321630249203
     }
   ]
 }
