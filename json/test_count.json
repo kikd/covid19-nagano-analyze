@@ -9132,11 +9132,11 @@
     "nameMunicipal": "",
     "testedNum": 1333,
     "misc": "",
-    "positiveNum": 193,
-    "negativeNum": 1140,
+    "positiveNum": 195,
+    "negativeNum": 1138,
     "testedAve": 2193,
-    "positiveAve": 199.71428571428572,
-    "positiveRate": 9.1068985733828427
+    "positiveAve": 200,
+    "positiveRate": 9.1199270405836756
   },
   {
     "YMD": "2022/01/17",
@@ -9145,11 +9145,11 @@
     "nameMunicipal": "",
     "testedNum": 4364,
     "misc": "",
-    "positiveNum": 315,
-    "negativeNum": 4049,
+    "positiveNum": 342,
+    "negativeNum": 4022,
     "testedAve": 2669.1428571428573,
-    "positiveAve": 228.28571428571428,
-    "positiveRate": 8.552772425604795
+    "positiveAve": 232.42857142857142,
+    "positiveRate": 8.7079854420894875
   },
   {
     "YMD": "2022/01/18",
@@ -9158,11 +9158,11 @@
     "nameMunicipal": "",
     "testedNum": 3604,
     "misc": "",
-    "positiveNum": 419,
-    "negativeNum": 3185,
+    "positiveNum": 432,
+    "negativeNum": 3172,
     "testedAve": 2755.4285714285716,
-    "positiveAve": 255.85714285714286,
-    "positiveRate": 9.2855661551223552
+    "positiveAve": 261.85714285714283,
+    "positiveRate": 9.5033181252592271
   },
   {
     "YMD": "2022/01/19",
@@ -9171,11 +9171,11 @@
     "nameMunicipal": "",
     "testedNum": 4190,
     "misc": "",
-    "positiveNum": 371,
-    "negativeNum": 3819,
+    "positiveNum": 361,
+    "negativeNum": 3829,
     "testedAve": 2984.2857142857142,
-    "positiveAve": 274.85714285714283,
-    "positiveRate": 9.2101483963618946
+    "positiveAve": 279.42857142857144,
+    "positiveRate": 9.3633317376735281
   },
   {
     "YMD": "2022/01/20",
@@ -9184,11 +9184,11 @@
     "nameMunicipal": "",
     "testedNum": 3489,
     "misc": "",
-    "positiveNum": 406,
-    "negativeNum": 3083,
+    "positiveNum": 420,
+    "negativeNum": 3069,
     "testedAve": 3130.8571428571427,
-    "positiveAve": 299,
-    "positiveRate": 9.550100383281622
+    "positiveAve": 305.57142857142856,
+    "positiveRate": 9.7599926993977
   },
   {
     "YMD": "2022/01/21",
@@ -9197,11 +9197,11 @@
     "nameMunicipal": "",
     "testedNum": 4989,
     "misc": "",
-    "positiveNum": 543,
-    "negativeNum": 4446,
+    "positiveNum": 501,
+    "negativeNum": 4488,
     "testedAve": 3421,
-    "positiveAve": 351.42857142857144,
-    "positiveRate": 10.27268551384307
+    "positiveAve": 352,
+    "positiveRate": 10.289389067524116
   },
   {
     "YMD": "2022/01/22",
@@ -9210,11 +9210,11 @@
     "nameMunicipal": "",
     "testedNum": 1975,
     "misc": "",
-    "positiveNum": 444,
-    "negativeNum": 1531,
+    "positiveNum": 462,
+    "negativeNum": 1513,
     "testedAve": 3420.5714285714284,
-    "positiveAve": 384.42857142857144,
-    "positiveRate": 11.238723688606751
+    "positiveAve": 387.57142857142856,
+    "positiveRate": 11.330604744403608
   },
   {
     "YMD": "2022/01/23",
@@ -9223,11 +9223,11 @@
     "nameMunicipal": "",
     "testedNum": 1473,
     "misc": "",
-    "positiveNum": 434,
-    "negativeNum": 1039,
+    "positiveNum": 436,
+    "negativeNum": 1037,
     "testedAve": 3440.5714285714284,
-    "positiveAve": 418.85714285714283,
-    "positiveRate": 12.174057465537286
+    "positiveAve": 422,
+    "positiveRate": 12.265404417870785
   },
   {
     "YMD": "2022/01/24",
@@ -9236,11 +9236,11 @@
     "nameMunicipal": "",
     "testedNum": 4573,
     "misc": "",
-    "positiveNum": 448,
-    "negativeNum": 4125,
+    "positiveNum": 440,
+    "negativeNum": 4133,
     "testedAve": 3470.4285714285716,
-    "positiveAve": 437.85714285714283,
-    "positiveRate": 12.616803194335816
+    "positiveAve": 436,
+    "positiveRate": 12.563289836578436
   },
   {
     "YMD": "2022/01/25",
@@ -9249,11 +9249,11 @@
     "nameMunicipal": "",
     "testedNum": 3911,
     "misc": "",
-    "positiveNum": 537,
-    "negativeNum": 3374,
+    "positiveNum": 521,
+    "negativeNum": 3390,
     "testedAve": 3514.2857142857142,
-    "positiveAve": 454.71428571428572,
-    "positiveRate": 12.939024390243903
+    "positiveAve": 448.71428571428572,
+    "positiveRate": 12.76829268292683
   },
   {
     "YMD": "2022/01/26",
@@ -9265,8 +9265,8 @@
     "positiveNum": 687,
     "negativeNum": 2997,
     "testedAve": 3442,
-    "positiveAve": 499.85714285714283,
-    "positiveRate": 14.522287706482942
+    "positiveAve": 495.28571428571428,
+    "positiveRate": 14.389474557981242
   },
   {
     "YMD": "2022/01/27",
@@ -9278,8 +9278,8 @@
     "positiveNum": 586,
     "negativeNum": 2514,
     "testedAve": 3386.4285714285716,
-    "positiveAve": 525.57142857142856,
-    "positiveRate": 15.519932503691203
+    "positiveAve": 519,
+    "positiveRate": 15.325880615903817
   },
   {
     "YMD": "2022/01/28",
@@ -9291,8 +9291,8 @@
     "positiveNum": 591,
     "negativeNum": 2512,
     "testedAve": 3117,
-    "positiveAve": 532.42857142857144,
-    "positiveRate": 17.081442779229114
+    "positiveAve": 531.85714285714289,
+    "positiveRate": 17.06311013337
   },
   {
     "YMD": "2022/01/29",
@@ -9304,8 +9304,8 @@
     "positiveNum": 498,
     "negativeNum": 1506,
     "testedAve": 3121.1428571428573,
-    "positiveAve": 540.14285714285711,
-    "positiveRate": 17.305931893079457
+    "positiveAve": 537,
+    "positiveRate": 17.20523617722446
   },
   {
     "YMD": "2022/01/30",
@@ -9317,8 +9317,8 @@
     "positiveNum": 431,
     "negativeNum": 635,
     "testedAve": 3063,
-    "positiveAve": 539.71428571428567,
-    "positiveRate": 17.620446807518306
+    "positiveAve": 536.28571428571433,
+    "positiveRate": 17.508511729863347
   },
   {
     "YMD": "2022/01/31",
@@ -9330,7 +9330,20 @@
     "positiveNum": 539,
     "negativeNum": 2928,
     "testedAve": 2905,
-    "positiveAve": 552.71428571428567,
-    "positiveRate": 19.026309318908286
+    "positiveAve": 550.42857142857144,
+    "positiveRate": 18.947627243668553
+  },
+  {
+    "YMD": "2022/02/01",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "testedNum": 2566,
+    "misc": "",
+    "positiveNum": 666,
+    "negativeNum": 1900,
+    "testedAve": 2712.8571428571427,
+    "positiveAve": 571.14285714285711,
+    "positiveRate": 21.053185887309112
   }
 ]
