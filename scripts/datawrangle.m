@@ -43,6 +43,8 @@ call_center = rmmissing(call_center);
 patients.Age(patients.Age == '乳児') = '10歳未満';
 % 誤字のケア
 patients.Age(patients.Age == '10際未満') = '10歳未満';
+% 100代は90歳以上とする
+patients.Age(patients.Age == '100代') = '90歳以上';
 
 age_list = unique(patients.Age);
 age_value = { 'age_10s'  'age_under10'  'age_20s'  'age_30s'  'age_40s'  'age_50s'   'age_60s'   'age_70s'   'age_80s'   'age_90s'   'age_over90'};
