@@ -9449,5 +9449,57 @@
     "testedAve": 2411.4285714285716,
     "positiveAve": 578.14285714285711,
     "positiveRate": 23.97511848341232
+  },
+  {
+    "YMD": "2022/02/10",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "testedNum": 2258,
+    "misc": "",
+    "positiveNum": 577,
+    "negativeNum": 1681,
+    "testedAve": 2300.1428571428573,
+    "positiveAve": 568.85714285714289,
+    "positiveRate": 24.731383143904104
+  },
+  {
+    "YMD": "2022/02/11",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "testedNum": 1048,
+    "misc": "",
+    "positiveNum": 421,
+    "negativeNum": 627,
+    "testedAve": 2019.7142857142858,
+    "positiveAve": 535.57142857142856,
+    "positiveRate": 26.517187721035505
+  },
+  {
+    "YMD": "2022/02/12",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "testedNum": 1281,
+    "misc": "",
+    "positiveNum": 446,
+    "negativeNum": 835,
+    "testedAve": 1948.2857142857142,
+    "positiveAve": 519.71428571428567,
+    "positiveRate": 26.675465610793371
+  },
+  {
+    "YMD": "2022/02/13",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "testedNum": 905,
+    "misc": "",
+    "positiveNum": 288,
+    "negativeNum": 617,
+    "testedAve": 1947.7142857142858,
+    "positiveAve": 507.71428571428572,
+    "positiveRate": 26.067184978729646
   }
 ]
