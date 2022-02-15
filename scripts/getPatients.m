@@ -26,8 +26,8 @@ function [patients, updated] = getPatients(url)
     % データのインポート
     patients_new = readtable("csv/200000_nagano_covid19_patients.csv", opts, "Encoding", "Shift_JIS");
     % 渡航履歴と退院フラグが入っていないデータがあるのでケア
-    fillmissing(patients_new(:,'Traveled'),'constant', 0);
-    fillmissing(patients_new(:,'Discharged'),'constant', 0);
+    patients_new(:,'Traveled') = fillmissing(patients_new(:,'Traveled'),'constant', 0);
+    patients_new(:,'Discharged') = fillmissing(patients_new(:,'Discharged'),'constant', 0);
     load('data/patients_org.mat');
     updated = ~isequal(patients, patients_new);
     if updated
