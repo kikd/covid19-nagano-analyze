@@ -63,10 +63,16 @@ d = [start_date:end_date]';
 confirmedNumberbyDate = zeros(numel(d),1);
 tmp_confirmednumber_byage = zeros(numel(d), numel(age_list));
 tmp_municipalities = zeros(numel(d), numel(municipal_list) + 1);
+patientsdate_max = max(unique(patients.ConfirmedDate));
 for index = 1:numel(d)
     % 公表日ベースの陽性者数を抽出
-    tmp_a = find(patients.ConfirmedDate == d(index));
-    confirmed_number = length(tmp_a);
+    % patients.csvの更新が追い付いていない日はtest_count.csvから人数を取得する
+    if patientsdate_max < d(index)
+        confirmed_number = test_count(test_count.InspectionDate == d(index),:).Positive;
+    else
+        tmp_a = find(patients.ConfirmedDate == d(index));
+        confirmed_number = length(tmp_a);
+    end
     confirmedNumberbyDate(index) = confirmed_number;
     confirmed_by_date = patients(tmp_a,:);
         
