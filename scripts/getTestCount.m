@@ -24,6 +24,9 @@ function [test_count,updated] = getTestCount(url)
 
     % データのインポート
     test_count_new = readtable("csv/200000_nagano_covid19_test_count.csv", opts, "Encoding", "Shift_JIS");
+    TF = isnan(test_count_new{:,5});
+    tmp_tested = test_count_new{:,7} + test_count_new{:,8} ;
+    test_count_new{TF:,5} = tmp_tested(TF);
     load('data/test_count_org.mat');
     
     updated = ~isequal(test_count, test_count_new);
@@ -32,5 +35,5 @@ function [test_count,updated] = getTestCount(url)
         save("data/test_count_org.mat", "test_count");
     end
     %% 一時変数のクリア
-    clear opts test_count_new
+    clear opts test_count_new TF tmp_tested;
 end
