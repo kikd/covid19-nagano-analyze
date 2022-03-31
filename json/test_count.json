@@ -10063,7 +10063,7 @@
   },
   {
     "YMD": "2022/03/29",
-    "regionCode": 200001,
+    "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
     "testedNum": 1796,
@@ -10073,5 +10073,18 @@
     "testedAve": 1837.1428571428571,
     "positiveAve": 467.85714285714283,
     "positiveRate": 25.466562986003112
+  },
+  {
+    "YMD": "2022/03/30",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "testedNum": 1669,
+    "misc": "",
+    "positiveNum": 603,
+    "negativeNum": 1066,
+    "testedAve": 1743.2857142857142,
+    "positiveAve": 485.71428571428572,
+    "positiveRate": 27.862001147258873
   }
 ]
