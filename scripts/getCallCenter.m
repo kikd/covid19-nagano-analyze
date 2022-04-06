@@ -23,7 +23,7 @@ function [call_center, updated] = getCallCenter(url)
     opts = setvaropts(opts, "Date", "InputFormat", "yyyy/MM/dd");
 
     % データのインポート
-    call_center_new = readtable("csv/200000_nagano_covid19_call_center.csv", opts, "Encoding", "Shift_JIS");
+    call_center_new = readtable("csv/200000_nagano_covid19_call_center.csv", opts);
     load('data/call_center_org.mat');
     updated = ~isequal(call_center, call_center_new);
     if updated

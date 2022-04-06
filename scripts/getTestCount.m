@@ -23,7 +23,7 @@ function [test_count,updated] = getTestCount(url)
     opts = setvaropts(opts, "InspectionDate", "InputFormat", "yyyy/MM/dd");
 
     % データのインポート
-    test_count_new = readtable("csv/200000_nagano_covid19_test_count.csv", opts, "Encoding", "Shift_JIS");
+    test_count_new = readtable("csv/200000_nagano_covid19_test_count.csv", opts);
     load('data/test_count_org.mat');
     
     updated = ~isequal(test_count, test_count_new);
