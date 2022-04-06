@@ -23,7 +23,7 @@ function [test_count,updated] = getTestCount(url)
     opts = setvaropts(opts, "InspectionDate", "InputFormat", "yyyy/MM/dd");
 
     % データのインポート
-    test_count_new = readtable("csv/200000_nagano_covid19_test_count.csv", opts, "Encoding", "Shift_JIS");
+    test_count_new = readtable("csv/200000_nagano_covid19_test_count.csv", opts);
     TF = isnan(test_count_new{:,5});
     tmp_tested = test_count_new{:,7} + test_count_new{:,8} ;
     test_count_new{TF,5} = tmp_tested(TF);
