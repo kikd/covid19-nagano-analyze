@@ -43,6 +43,10 @@ call_center = rmmissing(call_center);
 patients.Age(patients.Age == '乳児') = '10歳未満';
 % 誤字のケア
 patients.Age(patients.Age == '10際未満') = '10歳未満';
+
+% 80歳以上は80代とみなす (正解が分からない)
+patients.Age(patients.Age == '80歳以上') = '80代';
+
 % 100代、100歳以上は90歳以上とする
 patients.Age(patients.Age == '100代') = '90歳以上';
 patients.Age(patients.Age == '100歳以上') = '90歳以上';

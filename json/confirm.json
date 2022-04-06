@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2022/02/15 23:11",
+  "lastUpdated": "2022/04/05 19:58",
   "confirm": [
     {
       "Date": "2020/02/14",
@@ -5029,101 +5029,444 @@
     },
     {
       "Date": "2022/02/01",
-      "ConfirmedNumber": 0,
-      "MovingAverage": 476,
-      "ConfirmedPer100k": 164.61856859905745,
-      "Rt": 1.0108583367505912
+      "ConfirmedNumber": 666,
+      "MovingAverage": 571.14285714285711,
+      "ConfirmedPer100k": 197.5225201857838,
+      "Rt": 1.151376324866215
     },
     {
       "Date": "2022/02/02",
-      "ConfirmedNumber": 0,
-      "MovingAverage": 377.85714285714283,
-      "ConfirmedPer100k": 130.67710502536224,
-      "Rt": 0.81403070311077264
+      "ConfirmedNumber": 582,
+      "MovingAverage": 556.14285714285711,
+      "ConfirmedPer100k": 192.33496025093956,
+      "Rt": 1.0728521518413425
     },
     {
       "Date": "2022/02/03",
-      "ConfirmedNumber": 0,
-      "MovingAverage": 294.14285714285717,
-      "ConfirmedPer100k": 101.72558005566005,
-      "Rt": 0.660613648306216
+      "ConfirmedNumber": 642,
+      "MovingAverage": 564.14285714285711,
+      "ConfirmedPer100k": 195.1016588828565,
+      "Rt": 1.0518880777680066
     },
     {
       "Date": "2022/02/04",
-      "ConfirmedNumber": 0,
-      "MovingAverage": 209.71428571428572,
-      "ConfirmedPer100k": 72.527028422393855,
-      "Rt": 0.508376933266491
+      "ConfirmedNumber": 654,
+      "MovingAverage": 573.14285714285711,
+      "ConfirmedPer100k": 198.21419484376304,
+      "Rt": 1.0424803703887109
     },
     {
       "Date": "2022/02/05",
-      "ConfirmedNumber": 0,
-      "MovingAverage": 138.57142857142858,
-      "ConfirmedPer100k": 47.92317273141829,
-      "Rt": 0.37842083585405328
+      "ConfirmedNumber": 557,
+      "MovingAverage": 581.57142857142856,
+      "ConfirmedPer100k": 201.12910947381837,
+      "Rt": 1.0542038290100628
     },
     {
       "Date": "2022/02/06",
-      "ConfirmedNumber": 0,
-      "MovingAverage": 77,
-      "ConfirmedPer100k": 26.62947433220047,
-      "Rt": 0.24885577445281068
+      "ConfirmedNumber": 372,
+      "MovingAverage": 573.14285714285711,
+      "ConfirmedPer100k": 198.21419484376304,
+      "Rt": 1.0438596777667066
     },
     {
       "Date": "2022/02/07",
-      "ConfirmedNumber": 0,
-      "MovingAverage": 0,
-      "ConfirmedPer100k": 0,
-      "Rt": 0
+      "ConfirmedNumber": 475,
+      "MovingAverage": 564,
+      "ConfirmedPer100k": 195.05225355014369,
+      "Rt": 1.0145426196457403
     },
     {
       "Date": "2022/02/08",
-      "ConfirmedNumber": 0,
-      "MovingAverage": 0,
-      "ConfirmedPer100k": 0,
-      "Rt": 0
+      "ConfirmedNumber": 690,
+      "MovingAverage": 567.42857142857144,
+      "ConfirmedPer100k": 196.23798153525095,
+      "Rt": 0.99535049265556508
     },
     {
       "Date": "2022/02/09",
-      "ConfirmedNumber": 0,
-      "MovingAverage": 0,
-      "ConfirmedPer100k": 0,
-      "Rt": 0
+      "ConfirmedNumber": 657,
+      "MovingAverage": 578.14285714285711,
+      "ConfirmedPer100k": 199.94338148871114,
+      "Rt": 1.0280988127451214
     },
     {
       "Date": "2022/02/10",
-      "ConfirmedNumber": 0,
-      "MovingAverage": 0,
-      "ConfirmedPer100k": 0,
-      "Rt": 0
+      "ConfirmedNumber": 577,
+      "MovingAverage": 568.85714285714289,
+      "ConfirmedPer100k": 196.73203486237898,
+      "Rt": 1.0059618610992966
     },
     {
       "Date": "2022/02/11",
-      "ConfirmedNumber": 0,
-      "MovingAverage": 0,
-      "ConfirmedPer100k": 0,
-      "Rt": 0
+      "ConfirmedNumber": 421,
+      "MovingAverage": 535.57142857142856,
+      "ConfirmedPer100k": 185.22059234029604,
+      "Rt": 0.95272489031440355
     },
     {
       "Date": "2022/02/12",
-      "ConfirmedNumber": 0,
-      "MovingAverage": 0,
-      "ConfirmedPer100k": 0,
-      "Rt": 0
+      "ConfirmedNumber": 446,
+      "MovingAverage": 519.71428571428567,
+      "ConfirmedPer100k": 179.73660040917494,
+      "Rt": 0.92281665295334225
     },
     {
       "Date": "2022/02/13",
-      "ConfirmedNumber": 0,
-      "MovingAverage": 0,
-      "ConfirmedPer100k": 0,
-      "Rt": 0
+      "ConfirmedNumber": 288,
+      "MovingAverage": 507.71428571428572,
+      "ConfirmedPer100k": 175.58655246129956,
+      "Rt": 0.91705946875513944
     },
     {
       "Date": "2022/02/14",
-      "ConfirmedNumber": 0,
-      "MovingAverage": 0,
-      "ConfirmedPer100k": 0,
-      "Rt": 0
+      "ConfirmedNumber": 517,
+      "MovingAverage": 513.71428571428567,
+      "ConfirmedPer100k": 177.66157643523724,
+      "Rt": 0.93547112130236953
+    },
+    {
+      "Date": "2022/02/15",
+      "ConfirmedNumber": 614,
+      "MovingAverage": 502.85714285714283,
+      "ConfirmedPer100k": 173.9067711490643,
+      "Rt": 0.91732636127456479
+    },
+    {
+      "Date": "2022/02/16",
+      "ConfirmedNumber": 510,
+      "MovingAverage": 481.85714285714283,
+      "ConfirmedPer100k": 166.64418724028235,
+      "Rt": 0.87798673582281972
+    },
+    {
+      "Date": "2022/02/17",
+      "ConfirmedNumber": 520,
+      "MovingAverage": 473.71428571428572,
+      "ConfirmedPer100k": 163.8280832756526,
+      "Rt": 0.87745279473445392
+    },
+    {
+      "Date": "2022/02/18",
+      "ConfirmedNumber": 463,
+      "MovingAverage": 479.71428571428572,
+      "ConfirmedPer100k": 165.90310724959031,
+      "Rt": 0.92434122436755883
+    },
+    {
+      "Date": "2022/02/19",
+      "ConfirmedNumber": 420,
+      "MovingAverage": 476,
+      "ConfirmedPer100k": 164.61856859905745,
+      "Rt": 0.939170620995661
+    },
+    {
+      "Date": "2022/02/20",
+      "ConfirmedNumber": 234,
+      "MovingAverage": 468.28571428571428,
+      "ConfirmedPer100k": 161.95068063256613,
+      "Rt": 0.94389246332631083
+    },
+    {
+      "Date": "2022/02/21",
+      "ConfirmedNumber": 413,
+      "MovingAverage": 453.42857142857144,
+      "ConfirmedPer100k": 156.81252603043467,
+      "Rt": 0.91469562012803352
+    },
+    {
+      "Date": "2022/02/22",
+      "ConfirmedNumber": 447,
+      "MovingAverage": 429.57142857142856,
+      "ConfirmedPer100k": 148.56183546739669,
+      "Rt": 0.893585803434928
+    },
+    {
+      "Date": "2022/02/23",
+      "ConfirmedNumber": 333,
+      "MovingAverage": 404.28571428571428,
+      "ConfirmedPer100k": 139.81709157723066,
+      "Rt": 0.88216549620160167
+    },
+    {
+      "Date": "2022/02/24",
+      "ConfirmedNumber": 397,
+      "MovingAverage": 386.71428571428572,
+      "ConfirmedPer100k": 133.74023565355597,
+      "Rt": 0.86507282014251263
+    },
+    {
+      "Date": "2022/02/25",
+      "ConfirmedNumber": 338,
+      "MovingAverage": 368.85714285714283,
+      "ConfirmedPer100k": 127.56456906445568,
+      "Rt": 0.82886257927061058
+    },
+    {
+      "Date": "2022/02/26",
+      "ConfirmedNumber": 346,
+      "MovingAverage": 358.28571428571428,
+      "ConfirmedPer100k": 123.9085744437083,
+      "Rt": 0.81634407019509814
+    },
+    {
+      "Date": "2022/02/27",
+      "ConfirmedNumber": 245,
+      "MovingAverage": 359.85714285714283,
+      "ConfirmedPer100k": 124.45203310354913,
+      "Rt": 0.82851321823740842
+    },
+    {
+      "Date": "2022/02/28",
+      "ConfirmedNumber": 329,
+      "MovingAverage": 347.85714285714283,
+      "ConfirmedPer100k": 120.30198515567373,
+      "Rt": 0.82752291902550823
+    },
+    {
+      "Date": "2022/03/01",
+      "ConfirmedNumber": 445,
+      "MovingAverage": 347.57142857142856,
+      "ConfirmedPer100k": 120.20317449024813,
+      "Rt": 0.85959110913827219
+    },
+    {
+      "Date": "2022/03/02",
+      "ConfirmedNumber": 365,
+      "MovingAverage": 352.14285714285717,
+      "ConfirmedPer100k": 121.78414513705781,
+      "Rt": 0.90607601526489823
+    },
+    {
+      "Date": "2022/03/03",
+      "ConfirmedNumber": 358,
+      "MovingAverage": 346.57142857142856,
+      "ConfirmedPer100k": 119.85733716125851,
+      "Rt": 0.92470203807252271
+    },
+    {
+      "Date": "2022/03/04",
+      "ConfirmedNumber": 373,
+      "MovingAverage": 351.57142857142856,
+      "ConfirmedPer100k": 121.5865238062066,
+      "Rt": 0.96629778203489292
+    },
+    {
+      "Date": "2022/03/05",
+      "ConfirmedNumber": 335,
+      "MovingAverage": 350,
+      "ConfirmedPer100k": 121.04306514636578,
+      "Rt": 0.98342631008942638
+    },
+    {
+      "Date": "2022/03/06",
+      "ConfirmedNumber": 222,
+      "MovingAverage": 346.71428571428572,
+      "ConfirmedPer100k": 119.90674249397132,
+      "Rt": 0.97377426329366112
+    },
+    {
+      "Date": "2022/03/07",
+      "ConfirmedNumber": 314,
+      "MovingAverage": 344.57142857142856,
+      "ConfirmedPer100k": 119.16566250327928,
+      "Rt": 0.99324401237557625
+    },
+    {
+      "Date": "2022/03/08",
+      "ConfirmedNumber": 447,
+      "MovingAverage": 344.85714285714283,
+      "ConfirmedPer100k": 119.26447316870488,
+      "Rt": 0.99441569258958551
+    },
+    {
+      "Date": "2022/03/09",
+      "ConfirmedNumber": 429,
+      "MovingAverage": 354,
+      "ConfirmedPer100k": 122.42641446232423,
+      "Rt": 1.0037641923523959
+    },
+    {
+      "Date": "2022/03/10",
+      "ConfirmedNumber": 392,
+      "MovingAverage": 358.85714285714283,
+      "ConfirmedPer100k": 124.10619577455951,
+      "Rt": 1.0251946077354723
+    },
+    {
+      "Date": "2022/03/11",
+      "ConfirmedNumber": 389,
+      "MovingAverage": 361.14285714285717,
+      "ConfirmedPer100k": 124.89668109796435,
+      "Rt": 1.0193714560217657
+    },
+    {
+      "Date": "2022/03/12",
+      "ConfirmedNumber": 335,
+      "MovingAverage": 361.14285714285717,
+      "ConfirmedPer100k": 124.89668109796435,
+      "Rt": 1.0226384845211733
+    },
+    {
+      "Date": "2022/03/13",
+      "ConfirmedNumber": 260,
+      "MovingAverage": 366.57142857142856,
+      "ConfirmedPer100k": 126.77408374105084,
+      "Rt": 1.0405820733110402
+    },
+    {
+      "Date": "2022/03/14",
+      "ConfirmedNumber": 455,
+      "MovingAverage": 386.71428571428572,
+      "ConfirmedPer100k": 133.74023565355597,
+      "Rt": 1.0859092620142965
+    },
+    {
+      "Date": "2022/03/15",
+      "ConfirmedNumber": 542,
+      "MovingAverage": 400.28571428571428,
+      "ConfirmedPer100k": 138.43374226127219,
+      "Rt": 1.1123368687298765
+    },
+    {
+      "Date": "2022/03/16",
+      "ConfirmedNumber": 486,
+      "MovingAverage": 408.42857142857144,
+      "ConfirmedPer100k": 141.24984622590193,
+      "Rt": 1.1075576057541707
+    },
+    {
+      "Date": "2022/03/17",
+      "ConfirmedNumber": 537,
+      "MovingAverage": 429.14285714285717,
+      "ConfirmedPer100k": 148.41361946925826,
+      "Rt": 1.136281468216058
+    },
+    {
+      "Date": "2022/03/18",
+      "ConfirmedNumber": 476,
+      "MovingAverage": 441.57142857142856,
+      "ConfirmedPer100k": 152.71188341527207,
+      "Rt": 1.1544438408189863
+    },
+    {
+      "Date": "2022/03/19",
+      "ConfirmedNumber": 446,
+      "MovingAverage": 457.42857142857144,
+      "ConfirmedPer100k": 158.19587534639314,
+      "Rt": 1.1839062877774831
+    },
+    {
+      "Date": "2022/03/20",
+      "ConfirmedNumber": 339,
+      "MovingAverage": 468.71428571428572,
+      "ConfirmedPer100k": 162.09889663070453,
+      "Rt": 1.1919271128632443
+    },
+    {
+      "Date": "2022/03/21",
+      "ConfirmedNumber": 302,
+      "MovingAverage": 446.85714285714283,
+      "ConfirmedPer100k": 154.53988072564576,
+      "Rt": 1.108770793654932
+    },
+    {
+      "Date": "2022/03/22",
+      "ConfirmedNumber": 553,
+      "MovingAverage": 448.42857142857144,
+      "ConfirmedPer100k": 155.0833393854866,
+      "Rt": 1.0845032210831078
+    },
+    {
+      "Date": "2022/03/23",
+      "ConfirmedNumber": 478,
+      "MovingAverage": 447.28571428571428,
+      "ConfirmedPer100k": 154.68809672378418,
+      "Rt": 1.0670679607330329
+    },
+    {
+      "Date": "2022/03/24",
+      "ConfirmedNumber": 516,
+      "MovingAverage": 444.28571428571428,
+      "ConfirmedPer100k": 153.65058473681532,
+      "Rt": 1.02507931951841
+    },
+    {
+      "Date": "2022/03/25",
+      "ConfirmedNumber": 500,
+      "MovingAverage": 447.71428571428572,
+      "ConfirmedPer100k": 154.83631272192258,
+      "Rt": 1.0099170518101181
+    },
+    {
+      "Date": "2022/03/26",
+      "ConfirmedNumber": 379,
+      "MovingAverage": 438.14285714285717,
+      "ConfirmedPer100k": 151.52615543016483,
+      "Rt": 0.9697001507868952
+    },
+    {
+      "Date": "2022/03/27",
+      "ConfirmedNumber": 344,
+      "MovingAverage": 438.85714285714283,
+      "ConfirmedPer100k": 151.77318209372885,
+      "Rt": 0.95407415038767351
+    },
+    {
+      "Date": "2022/03/28",
+      "ConfirmedNumber": 477,
+      "MovingAverage": 463.85714285714283,
+      "ConfirmedPer100k": 160.41911531846924,
+      "Rt": 1.0270285855583157
+    },
+    {
+      "Date": "2022/03/29",
+      "ConfirmedNumber": 581,
+      "MovingAverage": 467.85714285714283,
+      "ConfirmedPer100k": 161.80246463442771,
+      "Rt": 1.0307589981779759
+    },
+    {
+      "Date": "2022/03/30",
+      "ConfirmedNumber": 603,
+      "MovingAverage": 485.71428571428572,
+      "ConfirmedPer100k": 167.978131223528,
+      "Rt": 1.0606411287962096
+    },
+    {
+      "Date": "2022/03/31",
+      "ConfirmedNumber": 589,
+      "MovingAverage": 496.14285714285717,
+      "ConfirmedPer100k": 171.58472051156258,
+      "Rt": 1.0820466776960174
+    },
+    {
+      "Date": "2022/04/01",
+      "ConfirmedNumber": 584,
+      "MovingAverage": 508.14285714285717,
+      "ConfirmedPer100k": 175.734768459438,
+      "Rt": 1.0946490621768397
+    },
+    {
+      "Date": "2022/04/02",
+      "ConfirmedNumber": 491,
+      "MovingAverage": 524.14285714285711,
+      "ConfirmedPer100k": 181.26816572327184,
+      "Rt": 1.136568638722312
+    },
+    {
+      "Date": "2022/04/03",
+      "ConfirmedNumber": 400,
+      "MovingAverage": 532.14285714285711,
+      "ConfirmedPer100k": 184.03486435518877,
+      "Rt": 1.1475968108002559
+    },
+    {
+      "Date": "2022/04/04",
+      "ConfirmedNumber": 537,
+      "MovingAverage": 540.71428571428567,
+      "ConfirmedPer100k": 186.99918431795689,
+      "Rt": 1.115731542006001
     }
   ]
 }
