@@ -105,7 +105,7 @@ end
 save('data/confirm_municipalities.mat', 'confirmed_by_municipalities');
 confirmed_by_municipalities.(char('県外等')) = tmp_municipalities(:,end);
 confirmed_by_municipalities.Properties.VariableNames = municipal_key;
-municipalities_json = [jsonencode(confirmed_by_municipalities) newline];
+municipalities_json = jsonencode(confirmed_by_municipalities, 'PrettyPrint', true);
 fid = fopen('json/confirm_municipalities.json', 'w');
 fwrite(fid, municipalities_json);
 fclose(fid);
@@ -119,7 +119,7 @@ for age_index = 1:numel(age_list)
     confirmednumber_byage.(char(map_age(age_key))) = ...
         tmp_confirmednumber_byage(:,age_index);
 end
-confirmed_byage_json = [jsonencode(confirmednumber_byage) newline];
+confirmed_byage_json = jsonencode(confirmednumber_byage, 'PrettyPrint', true);
 fid = fopen('json/confirm_byage.json', 'w');
 fwrite(fid, confirmed_byage_json);
 fclose(fid);
@@ -155,7 +155,7 @@ save('data/confirm_count.mat', 'confirm_count');
 confirm_json = struct();
 confirm_json.lastUpdated = updated;
 confirm_json.confirm = confirm_count;
-confirm_json_text = [jsonencode(confirm_json) newline];
+confirm_json_text = jsonencode(confirm_json, 'PrettyPrint', true);
 fid = fopen('json/confirm.json', 'w');
 fwrite(fid, confirm_json_text);
 fclose(fid);
@@ -182,7 +182,7 @@ positive_rate = positive_movave./inspection_movave.*100;
 test_count.positiveRate = positive_rate;
 
 % jsonファイルを生成
-testcount_json = [jsonencode(test_count) newline];
+testcount_json = jsonencode(test_count, 'PrettyPrint', true);
 fid = fopen('json/test_count.json', 'w');
 fwrite(fid, testcount_json);
 fclose(fid);
