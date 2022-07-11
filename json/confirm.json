@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2022/07/10 16:58",
+  "lastUpdated": "2022/07/11 18:09",
   "confirm": [
     {
       "Date": "2020/02/14",
@@ -6125,6 +6125,27 @@
       "MovingAverage": 225.57142857142858,
       "ConfirmedPer100k": 78.011020353514922,
       "Rt": 1.6625385869959375
+    },
+    {
+      "Date": "2022/07/08",
+      "ConfirmedNumber": 414,
+      "MovingAverage": 265.14285714285717,
+      "ConfirmedPer100k": 91.696297514961188,
+      "Rt": 1.8763877731218628
+    },
+    {
+      "Date": "2022/07/09",
+      "ConfirmedNumber": 365,
+      "MovingAverage": 298.14285714285717,
+      "ConfirmedPer100k": 103.10892937161852,
+      "Rt": 1.9574432129103276
+    },
+    {
+      "Date": "2022/07/10",
+      "ConfirmedNumber": 253,
+      "MovingAverage": 320.85714285714283,
+      "ConfirmedPer100k": 110.9643772729541,
+      "Rt": 1.9769489749982672
     }
   ]
 }
