@@ -11428,7 +11428,7 @@
   },
   {
     "YMD": "2022/07/12",
-    "regionCode": 200001,
+    "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
     "testedNum": 2129,
@@ -11441,7 +11441,7 @@
   },
   {
     "YMD": "2022/07/13",
-    "regionCode": 200002,
+    "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
     "testedNum": 1532,
